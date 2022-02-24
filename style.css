@@ -1,0 +1,193 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+
+
+* { 
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.log {
+    width: 90px;
+    height: 70px;
+    cursor: pointer;
+    color: #9c27b0;
+}
+
+.links {
+    font-size: 20px;
+}
+
+.links ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    color: blue;
+}
+
+.links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);  
+}
+
+.info {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    transform: translateY(-50%);
+    font-size: 20px;
+        
+}
+
+#circle {
+    width: 1000px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-sizing: 20px; 
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.cam {
+    font-size: 50px;
+    color: white;
+}
+
+.dis {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.pro {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.bat {
+    font-size: 50px;
+    color: white;
+
+}
+
+.feature{
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 15px;
+}
+
+.feature div {
+    margin-left: 20px;
+}
+
+.feature div p {
+    margin-top: 10px;
+}
+
+.a {
+    top: 450px;
+    right: 50px;
+}
+
+.b {
+    margin-top: 150px;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+
+.c {
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+
+}
+.d {
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+
+}
+
+.mobile {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+
+.social-icon {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+.social-icon h3 {
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#up {
+    font-size: 45px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+#down {
+    font-size: 45px;
+    cursor: pointer;
+    color: white;
+
+}
+ 
+.overlay {
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+        
+}
